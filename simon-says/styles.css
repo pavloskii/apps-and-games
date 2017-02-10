@@ -1,0 +1,27 @@
+body {
+ background-image: url('imgs/luigy.jpg');   
+}
+
+#header {
+    background-image: url('imgs/luigy.jpg');
+    color: white;
+}
+
+.colorBtn {
+    min-height: 300px;
+    margin: 7px;
+}
+
+#gameContainer {
+    background: rgba(0, 0, 0, 0.9);
+  padding: 25px;    
+  color: white;
+}
+
+#scoreContainer {
+    margin: 7px;
+}
+
+#start {
+    margin-bottom: 100px;
+}
