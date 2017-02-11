@@ -9,7 +9,53 @@
 </head>
 
 <body>
-    
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="imgs/code-editor.png" id="logo">
+
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="htmlNav">html</a></li>
+                <li><a id="jsNav">js</a></li>
+                <li><a id="cssNav">css</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="line"></div>
+
+    <div class="container-fluid">
+        <div class="col-sm-6">
+            <div id="htmlEditor">
+                <p>&ltbody&gt</p>
+                <textarea class="col-sm-12" name="htmlEditor" rows="10"></textarea>
+                <p>&lt/body&gt</p>
+            </div>
+
+            <div id="jsEditor">
+                <p>&ltscript&gt</p>
+                <textarea class="col-sm-12" name="jsEditor" rows="10"></textarea>
+                <p>&lt/script&gt</p>
+            </div>
+
+            <div id="cssEditor">
+                <p>&ltstyles&gt</p>
+                <textarea class="col-sm-12" name="cssEditor" rows="10"></textarea>
+                <p>&lt/styles&gt</p>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6">
+            <p>Result Page:</p>
+            <iframe class="col-sm-12" src="demo.html"></iframe>
+        </div>
+
+    </div>
+
 
 
     <!--skripti...........................................................-->

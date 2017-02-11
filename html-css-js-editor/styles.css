@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+#header {
+    background-color: dimgray;
+    color: white;
+}
+
+.line {
+    background-color: white;
+    color: white;
+}
+
+#logo {
+    margin-top:-5px;
+    max-height: 35px;
+}
+
