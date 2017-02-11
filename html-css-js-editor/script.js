@@ -21,3 +21,9 @@ $('#cssNav').click(function () {
     let area = $('#cssEditor');
     hideAttr(area);
 });
+
+$('#htmlEditor').keyup(function(){
+    let code = $('#htmlEditor').val();
+    console.log(code);
+    $('body1').append(code);
+})
